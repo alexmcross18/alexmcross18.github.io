@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "varela";
+    src: url(../fonts/VarelaRound-Regular.ttf);
+}
+
+* {
+    background-color: lightslategrey ;
+    font-family: varela;
+    text-align: center;
+}
+
+body {
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 75px;
+}
+
+.border {
+    border-style: solid;
+    border-radius: 10px;
+    align-items: center;
+    width: 500px;
+    padding-top: 35px;
+    height: 650px;
+    margin-left: 675px;
+}
+
+.border div {
+    margin-bottom: 40px;
+}
+
+button {
+    border-radius: 5px;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+button {
+    margin-bottom: 40px;
+}
+
+.home {
+    border: black;
+    border-style: solid;
+    width: 8%;
+    border-radius: 5px;
+}
